@@ -34,6 +34,10 @@ h3 {
 	color: #d0aaff;
 }
 
+p {
+	line-height: 1.4375rem;
+}
+
 /* Links */
 a {
 	color: #ef5839;
@@ -43,6 +47,37 @@ a {
 a:hover,
 a:active {
 	color: #d4b44c;
+}
+
+.btn {
+	padding: 0.625rem 1.1875rem;
+	border-radius: 0.2875rem;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.btn:hover,
+.btn:active {
+	background: #f3e885;
+	color: #2b283a;
+}
+
+.mid,
+.light {
+	color: #5f29a3;
+}
+
+.dark {
+	background: #5f29a3;
+	color: whitesmoke;
+}
+
+.mid {
+	background: #f0e0ff;
+}
+
+.light {
+	background: whitesmoke;
 }
 
 /* Layout */
